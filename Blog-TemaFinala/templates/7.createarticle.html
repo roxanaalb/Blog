@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/helpers/checkAdmin.js"></script>
+    <script type="text/javascript" src="../assets/js/helpers/logout.js"></script>
+    <script type="text/javascript" src="../assets/js/models/Article.js"></script>
+    <script type="text/javascript" src="../assets/js/views/CreateArticle.js"></script>
+    <script type="text/javascript" src="../assets/js/views/Menu.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/homestyle.css" type="text/css" />
+    <link rel="stylesheet" href="../assets/css/contact.css" type="text/css" />
+    <meta charset="UTF-8">
+    <title>Create article</title>
+</head>
+<body class="mybackground">
+     <nav class="navbar navbar-inverse" id= 'menu'>
+</nav>
+<button id= "logout-btn">Logout</button>
+<div class="container">
+    <section id="container">
+    <form class= "js-article" id= "hongkiat-form">
+    <div id="wrapping" class="clearfix">
+	<section id="aligned">
+        <input class= "txtinput" type="text" name="title" placeholder="Title" autocomplete="off" tabindex="1"/> <br>
+        <textarea class= "txtblock" id="content" placeholder= "Insert content" tabindex="2"></textarea> <br>
+        <input class= "txtinput" type="text" name="category" placeholder="Category" tabindex="3"/> <br>
+        <input type="file" name="article_img" tabindex="4"/>
+        
+         </section>
+        </div>
+        <section id="buttons">
+        <button class= "btn submitbtn" type= "submit" tabindex="5">Send</button>
+        </section>
+    </form>
+    </section>
+</div>
+</body>
+</html>

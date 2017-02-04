@@ -1,0 +1,6 @@
+[20-Dec-2016 17:07:24 UTC] PHP Warning:  require(/home/ubuntu/workspace/Blog-TemaFinala/php/app/controllers): failed to open stream: Transport endpoint is not connected in /home/ubuntu/workspace/Blog-TemaFinala/php/app/api.php on line 35
+[20-Dec-2016 17:07:24 UTC] PHP Stack trace:
+[20-Dec-2016 17:07:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Blog-TemaFinala/php/app/api.php:0
+[20-Dec-2016 17:07:24 UTC] PHP Fatal error:  require(): Failed opening required 'controllers/' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Blog-TemaFinala/php/app/api.php on line 35
+[20-Dec-2016 17:07:24 UTC] PHP Stack trace:
+[20-Dec-2016 17:07:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Blog-TemaFinala/php/app/api.php:0

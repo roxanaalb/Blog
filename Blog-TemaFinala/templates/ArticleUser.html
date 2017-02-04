@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Article</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/helpers/checkUser.js"></script>
+    <script type="text/javascript" src="../assets/js/helpers/logout.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/js/views/Menu.js"></script>
+    <script type="text/javascript" src="../assets/js/models/Article.js"></script>
+    <script type="text/javascript" src="../assets/js/models/Articles.js"></script>
+    <script type="text/javascript" src="../assets/js/models/Comment.js"></script>
+    <script type="text/javascript" src="../assets/js/models/Comments.js"></script>
+    <script type="text/javascript" src="../assets/js/views/ArticleView.js"></script>
+    <script type="text/javascript" src="../assets/js/views/ArticleUser.js"></script>
+    <link rel="stylesheet" href="../assets/css/homestyle.css" type="text/css" />
+    <link rel="stylesheet" href="../assets/css/contact.css" type="text/css" />
+</head>
+<body class="mybackground" >
+     <nav class="navbar navbar-inverse" id= 'menu'>
+</nav>
+   <button id= "logout-btn">Logout</button>
+   <button id= "edit-account">Edit/Delete Account</button>
+<div class="container">
+    
+   <section id="js-container">
+      
+       </section> 
+      
+       
+   <div id="commentList">
+    </div>
+        <form class="form-inline js-comm-form"  id= "hongkiat-form">
+          <div id="wrapping" class="clearfix">
+		   <section id="aligned">
+            <textarea class="form-control js-comm-text txtblock" id="content" type="text" placeholder="Your comments" tabindex="2"></textarea>
+           </section>
+          </div>
+            
+        <section id="buttons">
+          <button id= "add-comment" class="btn btn-default js-add-comment submitbtn" tabindex="3">Add Comment</button>
+        </section>            
+                    
+        </form>
+          </div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+[30-Jan-2017 17:18:34 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Blog-TemaFinala/api/app/controllers/Login.php on line 168
+[30-Jan-2017 17:18:34 UTC] PHP Stack trace:
+[30-Jan-2017 17:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/Blog-TemaFinala/api/api.php:0
+[30-Jan-2017 17:18:35 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Blog-TemaFinala/api/app/controllers/Login.php on line 168
+[30-Jan-2017 17:18:35 UTC] PHP Stack trace:
+[30-Jan-2017 17:18:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Blog-TemaFinala/api/api.php:0
+[30-Jan-2017 17:19:22 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Blog-TemaFinala/api/app/controllers/Login.php on line 168
+[30-Jan-2017 17:19:22 UTC] PHP Stack trace:
+[30-Jan-2017 17:19:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Blog-TemaFinala/api/api.php:0
+[30-Jan-2017 17:19:35 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Blog-TemaFinala/api/app/controllers/Login.php on line 168
+[30-Jan-2017 17:19:35 UTC] PHP Stack trace:
+[30-Jan-2017 17:19:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Blog-TemaFinala/api/api.php:0
+[30-Jan-2017 17:48:24 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/Blog-TemaFinala/api/app/controllers/Login.php on line 168
+[30-Jan-2017 17:48:24 UTC] PHP Stack trace:
+[30-Jan-2017 17:48:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Blog-TemaFinala/api/api.php:0
+[30-Jan-2017 17:48:30 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/Blog-TemaFinala/api/app/controllers/Login.php on line 168
+[30-Jan-2017 17:48:30 UTC] PHP Stack trace:
+[30-Jan-2017 17:48:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Blog-TemaFinala/api/api.php:0
+[30-Jan-2017 17:59:42 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/Blog-TemaFinala/api/app/models/DB.php on line 59
+[30-Jan-2017 17:59:42 UTC] PHP Stack trace:
+[30-Jan-2017 17:59:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/Blog-TemaFinala/api/api.php:0
+[30-Jan-2017 17:59:42 UTC] PHP   2. Login->editAccount() /home/ubuntu/workspace/Blog-TemaFinala/api/api.php:125
+[30-Jan-2017 17:59:42 UTC] PHP   3. UsersModel->editUser() /home/ubuntu/workspace/Blog-TemaFinala/api/app/controllers/Login.php:162
+[30-Jan-2017 17:59:42 UTC] PHP   4. DB->editItem() /home/ubuntu/workspace/Blog-TemaFinala/api/app/models/UsersModel.php:72
+[30-Jan-2017 17:59:42 UTC] PHP   5. PDOStatement->execute() /home/ubuntu/workspace/Blog-TemaFinala/api/app/models/DB.php:59

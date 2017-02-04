@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/homestyle.css" type="text/css" />
+    <link rel="stylesheet" href="../assets/css/contact.css" type="text/css" />
+    <script type="text/javascript" src="../assets/js/views/Menu.js"></script>
+    <script type="text/javascript" src="../assets/js/models/User.js"></script>
+    <script type="text/javascript" src="../assets/js/models/Users.js"></script>
+    <script type="text/javascript" src="../assets/js/views/CreateAccount.js"></script>
+    <script type="text/javascript" src="../assets/js/views/Login.js"></script>
+    
+   
+</head>
+<body class="mybackground">
+     <nav class="navbar navbar-inverse" id= 'menu'>
+</nav>
+  
+<div class="container">
+   
+     
+     <!--<h1 id= "welcome-msg"></h1>-->
+    <section id="container">
+        <h3>Do You already have an account? Please Login here</h3> <br>
+    <section class= "login-form" id="hongkiat-form">
+        <div id="wrapping" class="clearfix">
+			<section id="aligned">
+        <input type= "text" name="user_email" placeholder= "User Email" id="email" class= "txtinput txtinput2" autocomplete="off" tabindex="1"/><br>
+        <input type="password" name="user_password" placeholder= "*** Password" id="password"  class= "txtinput txtinput3" tabindex="2" /> <br>
+        </div>
+        
+			</section>
+		<section id="buttons">
+        <button id= "login-btn" class="js-login submitbtn btn" tabindex="3">Login </button> <br>
+        </section>
+         
+        <h3 class= "hide" id="login-message">Welcome to your account!</h3>
+        
+        <section id="buttons">
+        <input type="submit" id= "logout-btn" class= "hide submitbtn btn" tabindex="4" value="Logout"/>
+  
+    
+          <h3 class="css-create">If you want to create an account</h3>
+         <button id="display-data" class="submitbtn btn"tabindex="5">Click here</button>
+         <button id= "data" class="submitbtn btn" tabindex="6">
+             <span class= "glyphicon glyphicon-remove"> </span>
+         </button>
+         </section>
+          
+        <form id="hongkiat-form" class= "jsCreateForm hide">
+            <div id="wrapping" class="clearfix">
+			<section id="aligned">
+            <input type="text" class= "js-email txtinput txtinput2" name="email" placeholder= "Enter your Email" autocomplete="off" tabindex="1"/> <br>
+            <input type="password" class= "js-password txtinput txtinput3"  name="password" placeholder= "***Enter your Password" tabindex="2"/> <br>
+            <input type="text" class= "js-name txtinput txtinput1" name="name" placeholder= "Enter your Name" tabindex="3"/> <br>
+            <input type="number" class="js-age txtinput" name="age" placeholder= "Enter your Age" tabindex="4"/><br>
+            <input type="text" class= "js-gender txtinput" name="gender" placeholder="Enter your gender" tabindex="5"/> <br>
+            </section>
+            </div>
+             <h6 class= "error-message"></h6>
+            <section id="buttons">
+            <button type="submit" class= "js-create btn submitbtn" tabindex="6">Create Account </buttton> <br>
+            </section>
+           
+            
+            
+        </form>
+        </section>
+        </section>
+        </div>
+</body>
+</html>
